@@ -1,0 +1,37 @@
+.players{
+    border: 2px solid gray;
+    padding: 5px;
+    width: 240px;
+    height: 410px;
+    background-color: rgb(230, 229, 229);
+    margin: 5px;
+    border-radius: 10px;
+}
+.players h3{
+    color: red;
+    margin-top: -1px;
+}
+.country{
+    margin-top: -15px;
+}
+.full-name{
+    color: red;
+}
+
+.price{
+    color: goldenrod;
+    margin-top: -15px;
+}
+.players button{
+    height: 35px;
+    width: 210px;
+    color: red;
+    border: 1px solid red;
+    background-color: transparent;
+}
+.photo{
+    height: 210px;
+    width: 230px;
+    margin-top: -3px;
+}
+

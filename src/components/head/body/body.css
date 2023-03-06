@@ -1,0 +1,56 @@
+.Players-body{
+    display: flex;
+    margin-top: 15px;
+}
+.random-players{
+    width: 60%;
+    margin-right: 5px;
+    border-right: 2px solid gray;
+    padding-right: 5px;
+    
+}
+.all-player{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,265px);
+}
+.selected-player{
+    width: 40%;
+    height: 100%;
+    
+}
+.logo{
+    height: 100px;
+}
+.random-players h2{
+    margin-top: -10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+.selected-player img{
+    height: 100px;
+}
+.selected-player h2{
+    margin-top: -10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+.top-part2{
+    border-bottom: 2px solid gray;
+    margin-bottom: 20px;
+}
+.new-players-part{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,220px);
+    grid-gap: 10px;
+}
+.top-part2 h3{
+    color: green;
+}
+
+.length{
+    color:  red;
+    font-size: 25px;
+}
+.price{
+    color: red;
+}
